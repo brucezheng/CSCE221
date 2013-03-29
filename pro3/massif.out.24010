@@ -1,0 +1,651 @@
+desc: --time-unit=B --stacks=yes --depth=1 --max-snapshots=100
+cmd: ./a.out 2 2 13
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=493208
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1360
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=870280
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1360
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1439720
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1488
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1870132
+mem_heap_B=1248
+mem_heap_extra_B=128
+mem_stacks_B=580
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2547824
+mem_heap_B=12992
+mem_heap_extra_B=6608
+mem_stacks_B=656
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=3405888
+mem_heap_B=28088
+mem_heap_extra_B=14784
+mem_stacks_B=696
+heap_tree=detailed
+n4: 28088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 12180 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 12180 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 3584 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 144 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=7
+#-----------
+time=3987232
+mem_heap_B=39396
+mem_heap_extra_B=20356
+mem_stacks_B=696
+heap_tree=detailed
+n4: 39396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 16800 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 16780 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 5632 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 184 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=8
+#-----------
+time=4706992
+mem_heap_B=47404
+mem_heap_extra_B=25444
+mem_stacks_B=656
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=5180304
+mem_heap_B=57120
+mem_heap_extra_B=30416
+mem_stacks_B=712
+heap_tree=detailed
+n4: 57120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 25100 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 25100 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 6656 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 264 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=10
+#-----------
+time=5777104
+mem_heap_B=68428
+mem_heap_extra_B=36004
+mem_stacks_B=712
+heap_tree=detailed
+n4: 68428 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 29740 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 29720 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 8704 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 264 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=11
+#-----------
+time=6375424
+mem_heap_B=79264
+mem_heap_extra_B=41608
+mem_stacks_B=712
+heap_tree=detailed
+n4: 79264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 34380 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 34380 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 10240 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 264 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=12
+#-----------
+time=6923320
+mem_heap_B=89852
+mem_heap_extra_B=46724
+mem_stacks_B=696
+heap_tree=detailed
+n4: 89852 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 38620 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 38600 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 12288 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=13
+#-----------
+time=7742888
+mem_heap_B=94872
+mem_heap_extra_B=51320
+mem_stacks_B=544
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=8254048
+mem_heap_B=104788
+mem_heap_extra_B=56404
+mem_stacks_B=696
+heap_tree=detailed
+n4: 104788 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 46600 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 46580 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 11264 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=15
+#-----------
+time=9082288
+mem_heap_B=120208
+mem_heap_extra_B=64160
+mem_stacks_B=696
+heap_tree=detailed
+n4: 120208 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 53020 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 53020 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 13824 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=16
+#-----------
+time=9699744
+mem_heap_B=131836
+mem_heap_extra_B=69940
+mem_stacks_B=712
+heap_tree=detailed
+n4: 131836 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 57820 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 57800 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 15872 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=10164144
+mem_heap_B=140592
+mem_heap_extra_B=74296
+mem_stacks_B=648
+heap_tree=detailed
+n4: 140592 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 61420 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 61420 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 17408 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=18
+#-----------
+time=10824288
+mem_heap_B=152880
+mem_heap_extra_B=80472
+mem_stacks_B=696
+heap_tree=detailed
+n4: 152880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 66540 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 66540 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 19456 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=19
+#-----------
+time=11524768
+mem_heap_B=165808
+mem_heap_extra_B=87032
+mem_stacks_B=696
+heap_tree=detailed
+n4: 165808 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 71980 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 71980 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 21504 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 344 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=20
+#-----------
+time=11981168
+mem_heap_B=174544
+mem_heap_extra_B=91288
+mem_stacks_B=696
+heap_tree=detailed
+n4: 174544 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 75500 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 75500 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 23040 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 504 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=21
+#-----------
+time=12475184
+mem_heap_B=183760
+mem_heap_extra_B=95920
+mem_stacks_B=648
+heap_tree=detailed
+n4: 183760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 79340 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 79340 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 24576 0x804B450: __gnu_cxx::new_allocator<BinaryTree<int>::Node*>::allocate(unsigned int, void const*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 504 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=22
+#-----------
+time=13212528
+mem_heap_B=198256
+mem_heap_extra_B=99136
+mem_stacks_B=1688
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=13810656
+mem_heap_B=173100
+mem_heap_extra_B=104412
+mem_stacks_B=1064
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=14557664
+mem_heap_B=202760
+mem_heap_extra_B=122208
+mem_stacks_B=1248
+heap_tree=detailed
+n4: 202760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 38900 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=25
+#-----------
+time=15388792
+mem_heap_B=235760
+mem_heap_extra_B=142008
+mem_stacks_B=1240
+heap_tree=detailed
+n4: 235760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 71900 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=26
+#-----------
+time=15887304
+mem_heap_B=255520
+mem_heap_extra_B=153864
+mem_stacks_B=1192
+heap_tree=detailed
+n4: 255520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 91660 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=27
+#-----------
+time=16424008
+mem_heap_B=276840
+mem_heap_extra_B=166656
+mem_stacks_B=1240
+heap_tree=detailed
+n4: 276840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 112980 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=28
+#-----------
+time=16932336
+mem_heap_B=296980
+mem_heap_extra_B=178740
+mem_stacks_B=1240
+heap_tree=detailed
+n4: 296980 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 133120 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=29
+#-----------
+time=17638600
+mem_heap_B=325000
+mem_heap_extra_B=195552
+mem_stacks_B=1240
+heap_tree=peak
+n4: 325000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 161140 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x804997D: BinaryTree<int>::insertLeft(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 81920 0x8049B8D: BinaryTree<int>::insertRight(BinaryTree<int>::Node*, int const&) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 20 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=30
+#-----------
+time=18071828
+mem_heap_B=292860
+mem_heap_extra_B=176260
+mem_stacks_B=788
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=18505068
+mem_heap_B=251220
+mem_heap_extra_B=151260
+mem_stacks_B=788
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=18938300
+mem_heap_B=209560
+mem_heap_extra_B=126264
+mem_stacks_B=756
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=19371532
+mem_heap_B=167900
+mem_heap_extra_B=101100
+mem_stacks_B=724
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=19804780
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=detailed
+n2: 163860 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 163860 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 0 in 6 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=35
+#-----------
+time=20238128
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=20671420
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=21104768
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=21538060
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=21971408
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=detailed
+n2: 163860 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 163860 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 0 in 6 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=40
+#-----------
+time=22404700
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=22838048
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=23271340
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=23704688
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=24137980
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=detailed
+n2: 163860 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 163860 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 0 in 6 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=45
+#-----------
+time=24571328
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=25004620
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=492
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=25437968
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=26087984
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=26521288
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=26898360
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=27275520
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=27652592
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=28029720
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=28406792
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=28783952
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=29161024
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=29538152
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=29915224
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=detailed
+n2: 163860 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 163860 0x804A207: BinaryTree<int>::copy(BinaryTree<int>::Node*) (in /home/ugrads/b/bzheng/CSCE221/pro3/a.out)
+ n0: 0 in 6 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=59
+#-----------
+time=30292384
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=30669456
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=31046584
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=31423656
+mem_heap_B=163860
+mem_heap_extra_B=98580
+mem_stacks_B=480
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=31800728
+mem_heap_B=132360
+mem_heap_extra_B=79424
+mem_stacks_B=744
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=32177816
+mem_heap_B=96100
+mem_heap_extra_B=57660
+mem_stacks_B=768
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=32554888
+mem_heap_B=59840
+mem_heap_extra_B=35904
+mem_stacks_B=736
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=32931984
+mem_heap_B=23580
+mem_heap_extra_B=14148
+mem_stacks_B=744
+heap_tree=empty

@@ -163,7 +163,7 @@ struct PivotMedian{
 	bool leftLessMid = c(s.elemAtRank(leftBound),s.elemAtRank(midRank)) < 0;
 	bool midLessRight = c(s.elemAtRank(midRank),s.elemAtRank(rightBound)) < 0;
 	
-	if (leftLessRight) { //find the median of the elements of our 3 elements
+	if (leftLessRight) { //find and return the median of the elements of our 3 elements
 		if (leftLessMid) {
 			if (midLessRight) return midRank; 	// L M R
 			else return rightBound; 		// L R M
@@ -186,6 +186,7 @@ class QuickSortMedian : public QuickSort<Object, Comp, PivotMedian>{};
 struct PivotRandom{
   template<typename Seq, typename Comp>
   int SelectPivot(Seq& s, int leftBound, int rightBound, Comp& c){
+	srand (time(NULL));
     return leftBound + (rand() % (rightBound - leftBound + 1)); // select pivot from range of leftbound to rightbound, inclusive
   }
 };
